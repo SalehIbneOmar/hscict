@@ -1,1 +1,1 @@
-# hscict
+# HSC ICT
