@@ -1,0 +1,66 @@
+<!--
+    Notes:
+    -> rowspan is a <td> attribute which increases row space of a certain column.
+    -> colspan is a <td> attribute which increases column space of a certain row.       
+-->
+
+<html>
+    <head>
+        <title>Table rowspan and colspan attribute example</title>
+    </head>
+
+    <body>
+        <table border="1">
+            <caption>rowspan example</caption>
+            <tr>
+                <td>Serial:</td>
+                <td>Name:</td>
+                <td>Salary:</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>x</td>
+                <td rowspan="3">5000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>y</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>z</td>
+            </tr>              
+        </table>
+        <br>
+        <table border="1">
+                <caption>colspan example</caption>
+                <tr>
+                    <td>Serial:</td>
+                    <td>item:</td>
+                    <td>price:</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Juice</td>
+                    <td>$3</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Burger</td>
+                    <td>$6</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Pizza</td>
+                    <td>$8</td>
+                </tr> 
+                <tr>
+                    <td>Total price:</td>
+                    <td colspan="2">$17</td>
+                </tr>           
+        </table>
+
+
+    </body>
+
+</html>
